@@ -30,7 +30,7 @@ export class TiendaComponent implements OnInit {
       text: "No hay vuelta atras!",
       icon: 'warning',
       showCancelButton: true,
-      confirmButtonText: 'Si, compremoslo!',
+      confirmButtonText: 'Si, confirmar!',
       cancelButtonText: 'No, cancela',
       reverseButtons: true
     }).then((result) => {
